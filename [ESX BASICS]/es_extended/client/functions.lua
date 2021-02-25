@@ -45,37 +45,31 @@ ESX.SetPlayerData = function(key, val)
 end
 
 
-ESX.ShowNotification = function(msg)
-    if exports.esx_notificaciones ~= nil then
-        exports.esx_notificaciones:LirolShowNotification(msg, job)
-    else
-        SetNotificationTextEntry('STRING')
-        AddTextComponentSubstringPlayerName(msg)
-        DrawNotification(false, true)
-    end
+ESX.ShowNotification = function(msg, job)
+	if exports.mole_notifications ~= nil then
+		exports.mole_notifications:MoleShowNotification(msg, job)
+	else
+		AddTextEntry('esxNotification', msg)
+		SetNotificationTextEntry('esxNotification')
+		DrawNotification(false, true)
+	end
 end
 
 ESX.ShowAdvancedNotification = function(title, subject, msg, icon, iconType, job)
-    if exports.esx_notificaciones ~= nil then
-        exports.esx_notificaciones:LirolShowAdvancedNotification(title, subject, msg, icon, iconType, job)
-    else
-        AddTextEntry('esxAdvancedNotification', msg)
-        SetNotificationTextEntry('esxAdvancedNotification')
-        SetNotificationMessage(icon, icon, false, iconType, title, subject)
-        DrawNotification(false, false)
-    end
+	if exports.mole_notifications ~= nil then
+		exports.mole_notifications:MoleShowAdvancedNotification(title, subject, msg, icon, iconType, job)
+	else
+		AddTextEntry('esxAdvancedNotification', msg)
+		SetNotificationTextEntry('esxAdvancedNotification')
+		SetNotificationMessage(icon, icon, false, iconType, title, subject)
+		DrawNotification(false, false)
+	end
 end
 
-ESX.ShowHelpNotification = function(msg, thisFrame, beep, duration)
+ESX.ShowHelpNotification = function(msg)
 	AddTextEntry('esxHelpNotification', msg)
-
-	if thisFrame then
-		DisplayHelpTextThisFrame('esxHelpNotification', false)
-	else
-		if beep == nil then beep = true end
-		BeginTextCommandDisplayHelp('esxHelpNotification')
-		EndTextCommandDisplayHelp(0, false, beep, duration or -1)
-	end
+	BeginTextCommandDisplayHelp('esxHelpNotification')
+	EndTextCommandDisplayHelp(0, false, true, -1)
 end
 
 ESX.ShowFloatingHelpNotification = function(msg, coords)

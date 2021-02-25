@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Font2';
+  src: url(https://runtime.fivem.net/temp/ChaletLondonNineteenSixty.otf?a);
+}
+
+@font-face {
+  font-family: 'Font2_cond';
+  src: url(https://runtime.fivem.net/temp/chaletcomprime-colognesixty-webfont.ttf?a);
+}
+@font-face {
+  font-family: 'ChaletParisNineteenSixty';
+  src: url('../ChaletParisNineteenSixty.ttf');
+}
+body {
+  font-family: Font2;
+  font-size: 15px;
+  font-weight: normal;
+}
+.noty_theme__notificaciones.noty_bar {
+  margin: 4px 0;
+  overflow: hidden;
+  background: url('https://i.imgur.com/OnGNYKM.png'); 
+  background-size: cover;
+  
+  position: relative; 
+}
+.noty_theme__notificaciones.noty_bar .noty_body {
+    padding: 8px;
+    /*text-shadow: 1px 1px 0 #000;*/
+    
+}
+.noty_theme__notificaciones.noty_bar .noty_progressbar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  left: 75vw;
+  bottom: 25vw;
+  background-color: white;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.noty_theme__notificaciones.noty_bar .noty_buttons {
+    padding: 10px; 
+}
+.blue {color: #86e3ff;}
+.red {color: #ff2b2b;}
+.green {color: #82fd93;}
+.yellow {color: #fffb00;} 
+.purple {color: #e19fff;}
+.grey {color: #cfcfcf;}
+.darkgrey {color: #8d8d8d;}
+.black {color: #000000;}
+.gold {color: #e0d100;}
+
+.noty_theme__notificaciones.noty_type__alert, .noty_theme__notificaciones.noty_type__notification {  background-color: rgba(78, 78, 78, 0.445);  border-bottom: 1px solid #D1D1D1;  color: #fff; }
+.noty_theme__notificaciones.noty_type__warning {  background-color: rgba(133, 88, 30, 0.473);  border-bottom: 1px solid #E89F3C;  color: #fff; }
+.noty_theme__notificaciones.noty_type__error {  background-color: rgba(187, 34, 49, 0.288);  border-bottom: 1px solid #CA5A65;  color: #fff; }
+.noty_theme__notificaciones.noty_type__info,.noty_theme__notificaciones.noty_type__information {  background-color: rgba(250, 45, 31, 0.404);  border-bottom: 1px solid #7473E8;  color: #fff; }
+.noty_theme__notificaciones.noty_type__success {  background-color: rgba(70, 94, 0, 0.5);  border-bottom: 1px solid #A0B55C;  color: #fff; }
+
+
+
+.noty_theme__notificaciones.noty_type__police_alert, .noty_theme__notificaciones.noty_type__police_notification {  background-color: rgb(136, 183, 255);  border-bottom: 1px solid #D1D1D1;  color: #fff; }
+.noty_theme__notificaciones.noty_type__police_warning {  background-color: rgba(136, 183, 255);   border-bottom: 1px solid #E89F3C;  color: #fff; }
+.noty_theme__notificaciones.noty_type__police_error {  background-color: rgba(136, 183, 255);  border-bottom: 1px solid #CA5A65;  color: #fff; }
+.noty_theme__notificaciones.noty_type__police_info,.noty_theme__notificaciones.noty_type__police_information {  background-color: rgba(136, 183, 255);  border-bottom: 1px solid #7473E8;  color: #fff; }
+.noty_theme__notificaciones.noty_type__police_success { border-radius: 5px 5px 0 0; background: url('https://images.forasterosrp.com/paneles/entorno_body_police.png'); background-size: cover; background-repeat:no-repeat;  border-bottom: 1px solid #CA5A65;  color: #fff;  }
+.noty_theme__notificaciones.noty_header__police_success { background: url('https://images.forasterosrp.com/paneles/entorno_head_police.png'); background-size: contain; background-repeat:no-repeat; height: 40px; }
+
+.noty_theme__notificaciones.noty_type__police_alert .blue, 
+.noty_theme__notificaciones.noty_type__police_notification .blue,
+.noty_theme__notificaciones.noty_type__police_warning .blue,
+.noty_theme__notificaciones.noty_type__police_error .blue,
+.noty_theme__notificaciones.noty_type__police_info .blue,
+.noty_theme__notificaciones.noty_type__police_information .blue,
+.noty_theme__notificaciones.noty_type__police_success .blue
+{
+  color: #002e91;
+}
+
+.noty_theme__notificaciones.noty_type__ambulance_alert, .noty_theme__notificaciones.noty_type__ambulance_notification {  background-color: rgb(136, 183, 255);  border-bottom: 1px solid #D1D1D1;  color: #fff; }
+.noty_theme__notificaciones.noty_type__ambulance_warning {  background-color: rgba(136, 183, 255);   border-bottom: 1px solid #E89F3C;  color: #fff; }
+.noty_theme__notificaciones.noty_type__ambulance_error {  background-color: rgba(136, 183, 255);  border-bottom: 1px solid #CA5A65;  color: #fff; }
+.noty_theme__notificaciones.noty_type__ambulance_info,.noty_theme__notificaciones.noty_type__ambulance_information {  background-color: rgba(136, 183, 255);  border-bottom: 1px solid #7473E8;  color: #fff; }
+.noty_theme__notificaciones.noty_type__ambulance_success { border-radius: 5px 5px 0 0; background: url('https://images.forasterosrp.com/paneles/entorno_body_ambulance.png'); background-size: cover; background-repeat:no-repeat;  border-bottom: 1px solid #CA5A65;  color: #fff;  }
+.noty_theme__notificaciones.noty_header__ambulance_success { background: url('https://images.forasterosrp.com/paneles/entorno_head_ambulance.png'); background-size: contain; background-repeat:no-repeat; height: 40px; }
+
+.noty_theme__notificaciones.noty_type__ambulance_alert .blue, 
+.noty_theme__notificaciones.noty_type__ambulance_notification .blue,
+.noty_theme__notificaciones.noty_type__ambulance_warning .blue,
+.noty_theme__notificaciones.noty_type__ambulance_error .blue,
+.noty_theme__notificaciones.noty_type__ambulance_info .blue,
+.noty_theme__notificaciones.noty_type__ambulance_information .blue,
+.noty_theme__notificaciones.noty_type__ambulance_success .blue
+{
+  color: #002e91;
+}
+
+.noty_theme__notificaciones.noty_type__mechanic_alert, .noty_theme__notificaciones.noty_type__mechanic_notification {  background-color: rgb(136, 183, 255);  border-bottom: 1px solid #D1D1D1;  color: #fff; }
+.noty_theme__notificaciones.noty_type__mechanic_warning {  background-color: rgba(136, 183, 255);   border-bottom: 1px solid #E89F3C;  color: #fff; }
+.noty_theme__notificaciones.noty_type__mechanic_error {  background-color: rgba(136, 183, 255);  border-bottom: 1px solid #CA5A65;  color: #fff; }
+.noty_theme__notificaciones.noty_type__mechanic_info,.noty_theme__notificaciones.noty_type__mechanic_information {  background-color: rgba(136, 183, 255);  border-bottom: 1px solid #7473E8;  color: #fff; }
+.noty_theme__notificaciones.noty_type__mechanic_success { border-radius: 5px 5px 0 0; background: url('https://images.forasterosrp.com/paneles/entorno_body_mechanic.png'); background-size: cover; background-repeat:no-repeat;  border-bottom: 1px solid #CA5A65;  color: #fff;  }
+.noty_theme__notificaciones.noty_header__mechanic_success { background: url('https://images.forasterosrp.com/paneles/entorno_head_mechanic.png'); background-size: contain; background-repeat:no-repeat; height: 40px; }
+
+.noty_theme__notificaciones.noty_type__mechanic_alert .blue, 
+.noty_theme__notificaciones.noty_type__mechanic_notification .blue,
+.noty_theme__notificaciones.noty_type__mechanic_warning .blue,
+.noty_theme__notificaciones.noty_type__mechanic_error .blue,
+.noty_theme__notificaciones.noty_type__mechanic_info .blue,
+.noty_theme__notificaciones.noty_type__mechanic_information .blue,
+.noty_theme__notificaciones.noty_type__mechanic_success .blue
+{
+  color: #002e91;
+}
+
+.noty_theme__notificaciones.noty_type__taxi_alert, .noty_theme__notificaciones.noty_type__taxi_notification {  background-color: rgb(136, 183, 255);  border-bottom: 1px solid #D1D1D1;  color: #fff; }
+.noty_theme__notificaciones.noty_type__taxi_warning {  background-color: rgba(136, 183, 255);   border-bottom: 1px solid #E89F3C;  color: #fff; }
+.noty_theme__notificaciones.noty_type__taxi_error {  background-color: rgba(136, 183, 255);  border-bottom: 1px solid #CA5A65;  color: #fff; }
+.noty_theme__notificaciones.noty_type__taxi_info,.noty_theme__notificaciones.noty_type__taxi_information {  background-color: rgba(136, 183, 255);  border-bottom: 1px solid #7473E8;  color: #fff; }
+.noty_theme__notificaciones.noty_type__taxi_success { border-radius: 5px 5px 0 0; background: url('https://images.forasterosrp.com/paneles/entorno_body_taxi.png'); background-size: cover; background-repeat:no-repeat;  border-bottom: 1px solid #CA5A65;  color: #fff;  }
+.noty_theme__notificaciones.noty_header__taxi_success { background: url('https://images.forasterosrp.com/paneles/entorno_head_taxi.png'); background-size: contain; background-repeat:no-repeat; height: 40px; }
+
+.noty_theme__notificaciones.noty_type__taxi_alert .blue, 
+.noty_theme__notificaciones.noty_type__taxi_notification .blue,
+.noty_theme__notificaciones.noty_type__taxi_warning .blue,
+.noty_theme__notificaciones.noty_type__taxi_error .blue,
+.noty_theme__notificaciones.noty_type__taxi_info .blue,
+.noty_theme__notificaciones.noty_type__taxi_information .blue,
+.noty_theme__notificaciones.noty_type__taxi_success .blue
+{
+  color: #002e91;
+}

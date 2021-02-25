@@ -1,0 +1,12 @@
+Config = {}
+Config.TrafficX 			= 0--188--388
+Config.PedestrianX 			= 1000--488
+Config.ParkedX 				= 1.0--488
+Config.Divider 				= 1000
+Config.iPlayers				= 0
+Config.Static				= 2.25
+Config.Dispatch 			= false
+Config.PedDensity           = 1.0
+Config.CarDensity           = 0.5
+Config.ParkedDensity        = 1.0
+Config.VehicleBlacklist = {}

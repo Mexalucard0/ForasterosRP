@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    top: 3%;
+    border-radius: 100px;
+    right: 1%;
+    opacity: 0.7;
+}
+
+@font-face {
+    font-family: bankgothic;
+    src: url('bankgothic.ttf');
+}
+
+
+
+.container {
+    position: absolute;
+    bottom: 0.5%;
+    left: 1.5%;
+    transition: 0.2s ease-in-out;
+}
+
+.stress-c {
+    display: inline-block;
+    width: 60px;
+    height: 6px;
+    border: 4px solid #8b604086;
+    background-color: #772e07;
+}
+
+.health-c {
+    display: inline-block;
+    width: 60px;
+    height: 6px;
+    border: 4px solid #83b47686;
+    background-color: #185a00;
+}
+.shield-c {
+    display: inline-block;
+    width: 60px;
+    height: 6px;;
+    border: 4px solid#5a728f86;
+    background-color:   #032245;
+}
+.hunger-c {
+    display: inline-block;
+    width: 60px;
+    height: 6px;
+    border: 4px solid #bfa27086;
+    background-color: #4a3a19;
+}
+.stamina-c {
+    display: inline-block;
+    width: 60px;
+    height: 6px;
+    border: 4px solid #b9b607;
+    background-color: #9ca51a;
+}
+.thirst-c {
+    display: inline-block;
+    width: 60px;
+    height: 6px;;
+    border: 4px solid#689888;
+    background-color:   #46867f;
+}
+
+.stress-b {
+    height: 100%;
+    background-color: #b9542c;
+}
+
+.health-b {
+    height: 100%;
+    background-color: #5dc339;
+}
+
+.shield-b {
+    height: 100%;
+    background-color: #48739c;
+}
+
+.hunger-b {
+    height: 100%;
+    background-color: #ec9b1d;
+}
+
+.thirst-b {
+    height: 100%;
+    background-color: #5bc7f7;
+}
+
+.stamina-b {
+    height: 100%;
+    background-color: #ffee00;
+}
+

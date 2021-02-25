@@ -1,0 +1,22 @@
+Locales ["es"] = {
+	["boombox_menu_title"] = "Menu del radio",
+	["boombox_admin_menu_title"] = "Menu de Administrador del radio",
+	["put_boombox"] = "Has puesto el radio en el piso.",
+	["get_boombox"] = "Recoger el radio",
+	["play_music"] = "Poner musica",
+	["stop_music"] = "Parar la musica",
+	["volume_music"] = "Ajustar el volumen",
+	["boombox_alreadyOne"] = "Ya tienes un radio",
+	["not_found"] = "No hay ningun radio con musica",
+	["set_volume"] = "Introduce el volumen (valor entre 0 y 100)",
+	["play_id"] = "Ingresa el URL del video de YouTube",
+	["sound_limit"] = "El volumen debe tener un valor entre 0 y 100.",
+	["boombox_help"] = "Presiona ~INPUT_CONTEXT~ para ajustar la musica.",
+	["boombox_tooFar"] = "Estas demasiado lejos para controlar la musica.",
+	["dont_own"] = "Este radio no te pertenece.",
+	["sounds_destroyed"] = "Todos los radios han sido apagados.",
+	["sounds_destroyed_help"] = "Apaga todos los radios del servidor.",
+	["no_boomboxes"] = "No hay ningun radio en el servidor.",
+	["no_sounds"] = "No hay ningun radio tocando musica en el servidor.",
+	["no_boombox"] = "No hay ningun radio cerca."
+}

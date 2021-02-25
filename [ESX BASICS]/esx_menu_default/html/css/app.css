@@ -1,0 +1,170 @@
+@font-face {
+	font-family: bankgothic;
+	src: url('../fonts/bankgothic.ttf');
+}
+
+@font-face {
+	font-family: pcdown;
+	src: url('../fonts/pdown.ttf');
+}
+
+@font-face {
+	font-family: adventure;
+	src: url('../fonts/adventure.otf');
+}
+@font-face {
+	font-family: days;
+	src: url('../fonts/Days.ttf');
+}
+@font-face {
+	font-family: 'Font2';
+	src: url('../fonts/ChaletLondonNineteenSixty.ttf');
+  }
+.menu {
+	background-color: #000000e0;
+	border-radius: 20px;
+	font-family: Font2;
+	min-width: 400px;
+	color: #FE2041;
+	box-shadow: 0px 0px 50px 0px #000;
+	position: absolute;
+}
+
+.menu.align-left {
+	left: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	left: 40;
+	top: 40;
+}
+
+.menu.align-top {
+	left: 50%;
+	top: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 40;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 30;
+	bottom: 120;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.menu .head {
+	background: url('https://images.forasterosrp.com/panels/fondo_menus_forasteros_RP.png'); 
+	background-size: cover;
+	height: 65px;
+	vertical-align: middle;
+	border-radius: 10px 10px 0px 0px;
+	font-family: bankgothic;
+}
+.menu .headdescription {
+	background: url('https://images.forasterosrp.com/panels/fondo_menus_forasteros_RP.png'); 
+	background-size: cover;
+	vertical-align: middle;
+	font-family: bankgothic;
+	margin:-5px;
+	padding: 5px;
+}
+.menu .headtitle {
+	color: #eaeaea;
+	text-align: center;
+	position: relative;
+	margin-left: auto;
+  	margin-right: auto;
+	top: 55%;
+	transform: translateY(-50%);
+	font-size: 18px;
+}
+.menu .headimageleft {
+	position: absolute;
+	top: -15;
+	right: 152;
+	height: 30px;
+}
+.menu .headimageright {
+	position: absolute;
+	top: -25;
+	right:-22;
+	height: 50px;
+}
+.menu .menu-items {
+	max-height: 600px;
+	overflow-y: hidden;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.ImagenItem {
+    max-height: 20px;
+    max-width: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.menu .menu-items .menu-item {
+	height: 40px;
+	-box-shadow: inset 1px 0px 0px 1px rgba(0, 0, 0, 0.6);
+	height: 32px;
+	line-height: 32px;
+	color: #d6d6d6;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.menu .menu-items .menu-item.selected {
+	background-color:rgba(78, 77, 77, 0.78);
+	color: rgb(255, 255, 255);
+}
+.menu .menu-description:not(:empty) {
+	max-width: 400px;
+	word-wrap: break-word;
+	color: rgb(255, 255, 255);
+	margin: 5px;
+	text-align: justify;
+}
+.ItemImage {
+	max-height:30px;
+	max-width:40px;
+	margin-right:10px;
+	vertical-align:middle;
+}
+.bar{
+	background-color: rgba(227,17,17, 0.23);
+	height: 11px;
+}
+.bar_value
+{
+	background-color: rgb(227,17,17);
+	height: 10px;
+	position: relative;
+}

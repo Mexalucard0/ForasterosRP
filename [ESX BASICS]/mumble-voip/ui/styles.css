@@ -1,0 +1,17 @@
+@font-face {
+    font-family: bankgothic;
+    src: url('/ui/bankgothic.ttf');
+}
+
+.info-container {
+    position: absolute;
+    bottom: 1%;
+    left: 89.6%;
+    text-align: right;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    font-family: bankgothic;
+    font-size: 0.78vw;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

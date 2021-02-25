@@ -1,0 +1,22 @@
+Locales ["en"] = {
+	["boombox_menu_title"] = "Boombox Menu",
+	["boombox_admin_menu_title"] = "Boombox Admin Menu.",
+	["put_boombox"] = "You have set the Boombox on the floor.",
+	["get_boombox"] = "Pick up the Boombox",
+	["play_music"] = "Start the music",
+	["stop_music"] = "Stop the music",
+	["volume_music"] = "Adjust the volume",
+	["boombox_alreadyOne"] = "You already have a Boombox on you.",
+	["not_found"] = "You don't have any Boomboxes playing music.",
+	["set_volume"] = "Enter the volume level (between 0 and 100)",
+	["play_id"] = "Enter the url of the YouTube video",
+	["sound_limit"] = "The volume must be between 0 and 100.",
+	["boombox_help"] = "Press ~INPUT_CONTEXT~ to adjust the music",
+	["boombox_tooFar"] = "You're too far to control the music.",
+	["dont_own"] = "You don't own this Boombox.",
+	["sounds_destroyed"] = "All Boomboxes have been turned off.",
+	["sounds_destroyed_help"] = "Turns off all boomboxes in the server.",
+	["no_boomboxes"] = "There are no boomboxes in the server.",
+	["no_sounds"] = "There are no boomboxes playing music in the server.",
+	["no_boombox"] = "There are no boomboxes around."
+}

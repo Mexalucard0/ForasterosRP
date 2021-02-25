@@ -1,0 +1,87 @@
+<html>
+	<head>
+        <script
+        src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link href="/html/css/style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	</head>
+
+	<body>
+		<div class="dialog">
+            <form id="register">
+                <div class="card card-5">
+                <img class="headimageleft" src="https://images.forasterosrp.com/panels/sombrero_forasteros_RP.png">
+                <div class="card-heading">
+                    <h2 class="title">SISTEMA DE PASAPORTES DE MOLECORP</h2>
+                </div>
+                <div class="card-body">
+                        <div class="form-row m-b-55">
+                            <div class="name">Nombre</div>
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" id="firstname" type="text" name="first_name">
+                                            <label class="label--desc">Nombre</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" id="lastname" type="text" name="last_name">
+                                            <label class="label--desc">Apellido</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Fecha de nacimiento</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" id="dateofbirth" type="text" name="company">
+									<!-- <label class="label--desc">Ejemplo: Mes/Día/Año</label> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="name">Altura</div>
+                            <div class="value">
+                                <div class="row row-refine">
+                                    <div class="col-9">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" id="height" type="text" name="height">
+                                            <label class="label--desc">Mínimo: 140cm | Máximo: 200cm</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row p-t-20">
+                            <label class="label label--block">Género</label>
+                            <div class="p-t-15">
+                                <label class="radio-container m-r-55">Másculino
+                                    <input type="checkbox" id="radiom" name="sex" class="sex" value="m" checked>
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="radio-container">Femenino
+                                    <input type="checkbox" id="radiof" name="sex" class="sex" value="f">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-row p-t-20">
+                            <label class="label label--block" id="errormsg"></label>
+                        </div>
+                        <div>
+                            <button class="btn btn--radius-2 btn--red" id="submit" type="submit"><font size="5px">Entrar en la ciudad</font></button>
+                        </div>
+                </div>
+            </div>
+        </form>
+		</div>
+		<script src="/html/js/script.js" type="text/javascript"></script>
+	</body>
+</html>

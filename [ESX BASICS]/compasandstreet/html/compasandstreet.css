@@ -1,0 +1,14 @@
+@font-face {
+	font-family: bankgothic;
+	src: url('./bankgothic.ttf');
+}
+.streetname{
+    position: absolute;
+    top: 10px;
+    width: 99%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: bankgothic;
+    text-shadow: 1px 1px 4px black;
+}

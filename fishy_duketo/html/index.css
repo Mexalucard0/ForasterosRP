@@ -1,0 +1,192 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+@font-face {
+    font-family: chingatumadreduketo;
+    src: url('/html/bankgothic.ttf');
+}
+
+body {
+    width: 100%;
+    overflow: hidden;
+}
+
+img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 1%;
+    right: 1%;
+}
+
+.car-hud {
+    font-family: chingatumadreduketo;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 5%;
+    left: 18%;
+}
+
+.hud i {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: absolute;
+    color: white;
+}
+
+.water i, .hunger i{
+    margin-left: 6.5px;
+}
+
+.stress i {
+    margin-left: 6.5px;
+}
+
+.hud {
+    bottom: 1%;
+    left: 1%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: row;
+}
+
+.health {
+    height: 25px;
+    margin-left: 3px;
+    width: 70px;
+    border: 2px solid rgba(255, 255, 255, 0.74);
+    background-color: rgba(0, 0, 0, 0.562);
+}
+
+.shield {
+    height: 25px;
+    margin-left: 3px;
+    width: 70px;
+    border: 2px solid rgba(255, 255, 255, 0.74);
+    background-color: rgba(0, 0, 0, 0.562);
+}
+
+.hunger {
+    height: 25px;
+    margin-left: 3px;
+    width: 70px;
+    border: 2px solid rgba(255, 255, 255, 0.74);
+    background-color: rgba(0, 0, 0, 0.562);
+}
+
+.water {
+    height: 25px;
+    margin-left: 3px;
+    width: 70px;
+    border: 2px solid rgba(255, 255, 255, 0.74);
+    background-color: rgba(0, 0, 0, 0.562);
+}
+
+.fuel-container {
+    margin-top: 5px;
+}
+
+.seatbelt-container {
+    margin-top: 5px;
+}
+
+.cinturon {
+    color: red;
+}
+
+.perMinute {
+    color: white;
+    font-size: 10px;
+    margin-right: 20px;
+    margin-left: 3px;
+} 
+
+.health-bar {
+    background: rgb(0, 0, 0);
+    height: 25px;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+.shield-bar {
+	background: rgb(0, 0, 0);
+    height: 25px;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+.hunger-bar {
+	background: rgb(0, 0, 0);
+    height: 25px;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+.water-bar {
+	background: rgb(0, 0, 0);
+    height: 25px;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+.player-info i {
+    position: absolute;
+    display: flex;
+    margin-top: 0%;
+    margin-left: 0%;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.322));
+}
+
+
+.player-info {
+    position: absolute;
+    top: 18%;
+    right: 1%;
+    display: none;
+} 
+
+.player-info2 {
+    position: absolute;
+    top: 15%;
+    right: 1%;
+    display: none;
+}
+
+.player-job {
+    font-family: chingatumadreduketo;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    margin-bottom: 10px;
+    text-shadow: 0px 2px black;
+    
+}
+
+
+.recuadrosmoney {
+    font-family: 'roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: white;
+    border-radius: 10px 10px 0px;
+    padding: 0.7vh 0.5vh;
+    width: 9em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.street {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Graduate', cursive;
+    font-size: 10px;
+    text-shadow: 0px 2px black;
+}
